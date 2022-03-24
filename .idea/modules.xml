@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Volume_Booster.iml" filepath="$PROJECT_DIR$/.idea/modules/Volume_Booster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ads-module/Volume_Booster.ads-module.iml" filepath="$PROJECT_DIR$/.idea/modules/ads-module/Volume_Booster.ads-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Volume_Booster.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Volume_Booster.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-module/Volume_Booster.base-module.iml" filepath="$PROJECT_DIR$/.idea/modules/base-module/Volume_Booster.base-module.iml" />
+    </modules>
+  </component>
+</project>

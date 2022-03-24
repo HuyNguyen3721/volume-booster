@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingTop="@dimen/_8sdp"
+    android:paddingEnd="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_8sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:fontFamily="@font/monda_bold"
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_item_volume"
+        android:gravity="center"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="100%"
+        android:textColor="@color/white" />
+</LinearLayout>

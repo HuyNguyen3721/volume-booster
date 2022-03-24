@@ -1,0 +1,4 @@
+rootProject.name = "Volume Booster"
+include ':app'
+include ':base-module'
+include ':ads-module'

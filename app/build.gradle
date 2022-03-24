@@ -1,0 +1,95 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'applovin-quality-service'
+}
+
+applovin {
+    apiKey "c6A1iFSitmVlIuhTlnunm8a4yA-CFW6s2KDr_2HZuSVzMhSZbMHS4_1zqTneldiz6Jiipza3UAkTOBukN6uGbe"
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.ezstudio.volumebooster.test"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation project(path: ':base-module')
+    /*https://github.com/intuit/sdp*/
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    /*https://insert-koin.io/docs/quickstart/kotlin#setup*/
+    implementation "org.koin:koin-core:2.2.2"
+    implementation "org.koin:koin-android:2.2.2"
+    // Koin AndroidX ViewModel features
+    implementation "org.koin:koin-androidx-viewmodel:2.2.2"
+    // Koin AndroidX Fragment features
+    implementation "org.koin:koin-androidx-fragment:2.2.2"
+    //
+    implementation 'me.grantland:autofittextview:0.2.1'
+
+    implementation 'androidx.work:work-runtime-ktx:2.6.0'
+    //
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation fileTree(dir: 'libs', include: ['commons-io-2.4.jar'])
+    //
+    implementation "androidx.media:media:1.4.3"
+    //verticalseekbar
+    implementation 'com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:1.0.0'
+    // hawk
+    implementation "com.orhanobut:hawk:2.0.1"
+    // lottie animation
+    def lottieVersion = "4.2.0"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+    //ads
+    implementation project(path: ':ads-module')
+    //
+    implementation 'com.android.billingclient:billing:3.0.0'
+
+}
+dependencies {
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'com.google.android.gms:play-services-ads:20.2.0'
+    implementation 'com.flurry.android:analytics:12.11.0@aar'
+    implementation platform('com.google.firebase:firebase-bom:26.6.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-config:21.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics'
+}

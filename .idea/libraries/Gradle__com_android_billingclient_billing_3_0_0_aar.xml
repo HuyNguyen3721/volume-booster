@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.billingclient:billing:3.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/ff5b7ff6d98ebfb2caf9be0f0aa8ffcc/billing-3.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/cb9fb445c40fa9b60ea7f46b2d465971/billing-3.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/cb9fb445c40fa9b60ea7f46b2d465971/billing-3.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/cb9fb445c40fa9b60ea7f46b2d465971/billing-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.android.billingclient/billing/3.0.0/613d95d5420956f5b8e8d2567dee0845153b828/billing-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

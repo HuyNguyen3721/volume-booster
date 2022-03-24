@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/a07395fac4660cb614bcdc8d53b25f47/interpolator-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b2985dfe9fc7f7cf962f26c45976c79/interpolator-1.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b2985dfe9fc7f7cf962f26c45976c79/interpolator-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b2985dfe9fc7f7cf962f26c45976c79/interpolator-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/androidx.interpolator/interpolator/1.0.0/fefd5e3cbc479b6b4a9532d05688a1e659e8d3d2/interpolator-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

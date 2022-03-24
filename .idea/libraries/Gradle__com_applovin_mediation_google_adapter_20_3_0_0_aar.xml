@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:google-adapter:20.3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/2bfeebee405a6db603969438fc8f8052/google-adapter-20.3.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/2bfeebee405a6db603969438fc8f8052/google-adapter-20.3.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/2bfeebee405a6db603969438fc8f8052/google-adapter-20.3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/google-adapter/20.3.0.0/48ec7876e598bf8a4542278f43437f4031124401/google-adapter-20.3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

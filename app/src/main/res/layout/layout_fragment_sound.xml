@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_383634"
+    android:paddingBottom="@dimen/_7sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_touch_volume"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="@dimen/_25sdp"
+        app:layout_constraintHeight_percent="0.48"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.ezstudio.volumebooster.test.widget.WaveSound
+            android:id="@+id/wave_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/touch_volume"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.19" />
+
+        <com.ezstudio.volumebooster.test.widget.WaveSound
+            android:id="@+id/wave_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/touch_volume"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.19" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/touch_volume"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.61">
+
+            <com.ezstudio.volumebooster.test.widget.MeasureVolume
+                android:id="@+id/view_volume"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:color_volume="@color/color_FF9500" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:paddingBottom="@dimen/_12sdp"
+        android:id="@+id/layout_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/rcl_set_volume"
+        app:layout_constraintTop_toBottomOf="@+id/layout_touch_volume">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_volume_reduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/seekBar"
+            app:layout_constraintEnd_toStartOf="@+id/seekBar"
+            app:layout_constraintTop_toTopOf="@+id/seekBar"
+            app:srcCompat="@drawable/ic_sound_reduction" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:max="15"
+            android:maxHeight="@dimen/_9sdp"
+            android:progress="100"
+            android:progressDrawable="@drawable/seekbar_drawable_progress"
+            android:splitTrack="false"
+            android:thumbOffset="@dimen/_10sdp"
+            app:layout_constraintBottom_toTopOf="@+id/ic_value_volume"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.65" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_volume_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/seekBar"
+            app:layout_constraintStart_toEndOf="@+id/seekBar"
+            app:layout_constraintTop_toTopOf="@+id/seekBar"
+            app:srcCompat="@drawable/ic_sound_add" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+
+            android:id="@+id/ic_value_volume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:paddingStart="@dimen/_13sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="@+id/seekBar"
+            app:layout_constraintStart_toStartOf="@+id/seekBar"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar"
+            app:srcCompat="@drawable/ic_value_volume" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcl_set_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/bg_dot"
+        app:layout_constraintTop_toBottomOf="@+id/layout_seekbar"
+        app:spanCount="4"
+        tools:itemCount="8" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_bg_dot" />
+</androidx.constraintlayout.widget.ConstraintLayout>

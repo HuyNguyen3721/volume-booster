@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-api:19.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/5a69a19291293f2ff8c21248a9c6679d/play-services-measurement-api-19.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e9ff476c70fb9d00c01b5f30499fac0e/play-services-measurement-api-19.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e9ff476c70fb9d00c01b5f30499fac0e/play-services-measurement-api-19.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e9ff476c70fb9d00c01b5f30499fac0e/play-services-measurement-api-19.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/19.0.1/3d976f894abed7c589b0048a15b078d39829dd34/play-services-measurement-api-19.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:mintegral-adapter:16.0.11.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8da837d1a49bfd021759453a95d45797/mintegral-adapter-16.0.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/dfe0781a1df65bd5e3e8837d51292115/jetified-mintegral-adapter-16.0.11.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/dfe0781a1df65bd5e3e8837d51292115/jetified-mintegral-adapter-16.0.11.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/dfe0781a1df65bd5e3e8837d51292115/jetified-mintegral-adapter-16.0.11.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/mintegral-adapter/16.0.11.0/5db0b5f29c9f12be1ece31d63a2c9f30ea82e5ef/mintegral-adapter-16.0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

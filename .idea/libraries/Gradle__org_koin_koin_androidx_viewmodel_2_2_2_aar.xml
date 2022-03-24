@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: org.koin:koin-androidx-viewmodel:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/789975e0062137d39198a8db11b09248/koin-androidx-viewmodel-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f1c8eb73ca1f762f37205a37dea55cf2/koin-androidx-viewmodel-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f1c8eb73ca1f762f37205a37dea55cf2/koin-androidx-viewmodel-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f1c8eb73ca1f762f37205a37dea55cf2/koin-androidx-viewmodel-2.2.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.2.2/a961fa8c595bd6f60bb37b907cc20343c2c364e0/koin-androidx-viewmodel-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/org.koin/koin-androidx-viewmodel/2.2.2/2e46c06c6a692bc41e8718ddf3d6b2ff962099b4/koin-androidx-viewmodel-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

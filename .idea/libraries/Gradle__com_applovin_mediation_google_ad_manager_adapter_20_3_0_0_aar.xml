@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:google-ad-manager-adapter:20.3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/4556e58e3a827acb71ddeff879e9ccbb/google-ad-manager-adapter-20.3.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/4556e58e3a827acb71ddeff879e9ccbb/google-ad-manager-adapter-20.3.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/4556e58e3a827acb71ddeff879e9ccbb/google-ad-manager-adapter-20.3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/google-ad-manager-adapter/20.3.0.0/56ad6115868e87119390e252abae203c68224336/google-ad-manager-adapter-20.3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

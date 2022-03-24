@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.flurry.android:analytics:12.11.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/4271f1296c282813b3387d1ded6ee52f/analytics-12.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/50df36e42d27801b68eb9c862c844a67/analytics-12.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/89e418b12ccba14951f77c400b8ccb1d/jetified-analytics-12.11.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/89e418b12ccba14951f77c400b8ccb1d/jetified-analytics-12.11.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/89e418b12ccba14951f77c400b8ccb1d/jetified-analytics-12.11.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

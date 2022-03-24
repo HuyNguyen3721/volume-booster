@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_383634"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingBottom="@dimen/_7sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_seekbar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_normal_equalizer"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingTop="@dimen/_6sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_6sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/category_name_equalizer"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:fontFamily="@font/monda_bold"
+                android:gravity="center"
+                android:paddingBottom="@dimen/_3sdp"
+                android:singleLine="true"
+                android:text="@string/normal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:autoSizeMinTextSize="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ic_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/category_name_equalizer"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_down" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_save"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:background="@drawable/bg_save_equalizer"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_category"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ic_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_save" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_off"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_off_equalizer" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/state"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toStartOf="@+id/ic_off"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_state_off_equalizer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingStart="@dimen/_25sdp"
+        android:paddingEnd="@dimen/_25sdp"
+        app:layout_constraintHeight_percent="0.458"
+        app:layout_constraintBottom_toTopOf="@+id/view_volume"
+        app:layout_constraintTop_toBottomOf="@+id/layout_top">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_seekbar_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_seekbar_2"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="32dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_left_1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_1"
+                app:srcCompat="@drawable/ic_value_number_equalizer_left" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/number_60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monda_regular"
+                android:text="@string/_60hz"
+                android:textColor="@color/color_949392"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_right_1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_1"
+                app:srcCompat="@drawable/ic_value_number_equalizer_right" />
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:id="@+id/bg_seekbar_1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/number_60"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                    android:id="@+id/seekbar_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:max="3000"
+                    android:progress="1"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable_progress_enable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/ic_seekbar_equalizer"
+                    android:thumbOffset="@dimen/_10sdp"
+                    app:seekBarRotation="CW270" />
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_seekbar_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_seekbar_3"
+            app:layout_constraintStart_toEndOf="@+id/layout_seekbar_1"
+            tools:layout_editor_absoluteY="32dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_left_2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_2"
+                app:srcCompat="@drawable/ic_value_number_equalizer_left" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/number_230"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monda_regular"
+                android:text="@string/_230hz"
+                android:textColor="@color/color_949392"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_right_2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_2"
+                app:srcCompat="@drawable/ic_value_number_equalizer_right" />
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:id="@+id/bg_seekbar_2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/number_230"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                    android:id="@+id/seekbar_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:max="3000"
+                    android:progress="1"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable_progress_enable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/ic_seekbar_equalizer"
+                    android:thumbOffset="@dimen/_10sdp"
+                    app:seekBarRotation="CW270" />
+
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_seekbar_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_seekbar_4"
+            app:layout_constraintStart_toEndOf="@+id/layout_seekbar_2"
+            tools:layout_editor_absoluteY="32dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_left_3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_3"
+                app:srcCompat="@drawable/ic_value_number_equalizer_left" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/number_910"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monda_regular"
+                android:text="@string/_910hz"
+                android:textColor="@color/color_949392"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_right_3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_3"
+                app:srcCompat="@drawable/ic_value_number_equalizer_right" />
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:id="@+id/bg_seekbar_3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/number_910"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                    android:id="@+id/seekbar_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:max="3000"
+                    android:progress="1"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable_progress_enable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/ic_seekbar_equalizer"
+                    android:thumbOffset="@dimen/_10sdp"
+                    app:seekBarRotation="CW270" />
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_seekbar_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_seekbar_5"
+            app:layout_constraintStart_toEndOf="@+id/layout_seekbar_3"
+            tools:layout_editor_absoluteY="32dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_left_4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_4"
+                app:srcCompat="@drawable/ic_value_number_equalizer_left" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/number_3k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monda_regular"
+                android:text="@string/_3khz"
+                android:textColor="@color/color_949392"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_right_4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_4"
+                app:srcCompat="@drawable/ic_value_number_equalizer_right" />
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:id="@+id/bg_seekbar_4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/number_3k"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                    android:id="@+id/seekbar_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:progress="1"
+                    android:max="3000"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable_progress_enable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/ic_seekbar_equalizer"
+                    android:thumbOffset="@dimen/_10sdp"
+                    app:seekBarRotation="CW270" />
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_seekbar_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_seekbar_4"
+            tools:layout_editor_absoluteY="32dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_left_5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_5"
+                app:srcCompat="@drawable/ic_value_number_equalizer_left" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/number_14k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monda_regular"
+                android:text="@string/_14khz"
+                android:textColor="@color/color_949392"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/value_right_5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:paddingTop="@dimen/_17sdp"
+                android:paddingBottom="@dimen/_17sdp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="@+id/bg_seekbar_5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bg_seekbar_5"
+                app:srcCompat="@drawable/ic_value_number_equalizer_right" />
+
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+                android:id="@+id/bg_seekbar_5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/number_14k"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                    android:id="@+id/seekbar_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:max="3000"
+                    android:progress="1"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:progressDrawable="@drawable/seekbar_drawable_progress_enable"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/ic_seekbar_equalizer"
+                    android:thumbOffset="@dimen/_10sdp"
+                    app:seekBarRotation="CW270" />
+            </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@+id/bg_dot"
+        app:layout_constraintTop_toBottomOf="@+id/layout_seekbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_virtualization"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_bass"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.41">
+
+            <com.ezstudio.volumebooster.test.widget.MeasureVolume
+                android:id="@+id/view_volume_bass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:color_volume="@color/color_FF9500"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:maxmin="false" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:fontFamily="@font/monda_bold"
+                android:text="@string/bass_sound"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_volume_bass" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_bass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_virtualization"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.41">
+
+            <com.ezstudio.volumebooster.test.widget.MeasureVolume
+                android:id="@+id/view_volume_virtualization"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:color_volume="@color/color_FF9500"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:maxmin="false" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:fontFamily="@font/monda_bold"
+                android:text="@string/virtualization"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_volume_virtualization" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_dot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/ic_bg_dot" />
+</androidx.constraintlayout.widget.ConstraintLayout>

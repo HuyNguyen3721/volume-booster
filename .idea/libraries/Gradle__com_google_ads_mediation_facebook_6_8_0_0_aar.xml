@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.ads.mediation:facebook:6.8.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e75abfe5c9c73e701277c9fa3e0e6e8d/facebook-6.8.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/b68e1112dedd9854279e4aa3ce85edec/facebook-6.8.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e75abfe5c9c73e701277c9fa3e0e6e8d/facebook-6.8.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e75abfe5c9c73e701277c9fa3e0e6e8d/facebook-6.8.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/e75abfe5c9c73e701277c9fa3e0e6e8d/facebook-6.8.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.google.ads.mediation/facebook/6.8.0.0/a036142ea5054187e67c3fb0252d84bd268b7233/facebook-6.8.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

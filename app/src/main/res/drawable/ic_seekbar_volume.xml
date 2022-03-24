@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="29dp"
+    android:height="35dp"
+    android:viewportWidth="29"
+    android:viewportHeight="35">
+  <path
+      android:pathData="M6.926,1L22.926,1A5,5 0,0 1,27.926 6L27.926,29A5,5 0,0 1,22.926 34L6.926,34A5,5 0,0 1,1.926 29L1.926,6A5,5 0,0 1,6.926 1z"
+      android:strokeWidth="2">
+    <aapt:attr name="android:fillColor">
+      <gradient
+          android:startY="0"
+          android:startX="14.926"
+          android:endY="35"
+          android:endX="14.926"
+          android:type="linear">
+        <item android:offset="0" android:color="#FF202020"/>
+        <item android:offset="1" android:color="#FF4B4B4B"/>
+      </gradient>
+    </aapt:attr>
+    <aapt:attr name="android:strokeColor">
+      <gradient
+          android:startY="0"
+          android:startX="14.926"
+          android:endY="35"
+          android:endX="14.926"
+          android:type="linear">
+        <item android:offset="0" android:color="#FF606060"/>
+        <item android:offset="0.140625" android:color="#000E0E0E"/>
+        <item android:offset="0.484375" android:color="#000E0E0E"/>
+        <item android:offset="0.864583" android:color="#000E0E0E"/>
+        <item android:offset="1" android:color="#FF0E0E0E"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M1.9282,7.5676h26.1333v1.8919h-26.1333z"
+      android:strokeAlpha="0.45"
+      android:fillColor="#424242"
+      android:fillAlpha="0.45"/>
+  <path
+      android:pathData="M1.9282,10.4054h26.1333v1.8919h-26.1333z"
+      android:strokeAlpha="0.45"
+      android:fillColor="#424242"
+      android:fillAlpha="0.45"/>
+  <path
+      android:pathData="M1.9282,13.2432h26.1333v1.8919h-26.1333z"
+      android:strokeAlpha="0.45"
+      android:fillColor="#424242"
+      android:fillAlpha="0.45"/>
+  <path
+      android:pathData="M13.6533,21.25h2.5454v11.25h-2.5454z"
+      android:fillColor="#949392"/>
+</vector>

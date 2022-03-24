@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-ui-ktx:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/0b8e035114bbad75caed7666466d9198/navigation-ui-ktx-2.2.2/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f06f44fe77bf1448aa453ea10289e660/navigation-ui-ktx-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f06f44fe77bf1448aa453ea10289e660/navigation-ui-ktx-2.2.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/f06f44fe77bf1448aa453ea10289e660/navigation-ui-ktx-2.2.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-ui-ktx/2.2.2/2a3133fd01dfcc8cc485a847d085c39ef198a842/navigation-ui-ktx-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

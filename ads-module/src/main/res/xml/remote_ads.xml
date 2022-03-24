@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>enable_start_app_ads</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>enable_overlay_fb_ads</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>time_show_ads</key>
+        <value>30</value>
+    </entry>
+
+    <entry>
+        <key>max_show_day</key>
+        <value>50</value>
+    </entry>
+
+    <entry>
+        <key>admob_inter_id</key>
+        <value>ca-app-pub-3695840350719243/1164051081</value>
+    </entry>
+    <entry>
+        <key>admob_open_id</key>
+        <value>ca-app-pub-3695840350719243/3598642731</value>
+    </entry>
+    <entry>
+        <key>admob_banner_id</key>
+        <value>ca-app-pub-3695840350719243/3790214424</value>
+    </entry>
+    <entry>
+        <key>admob_native_id</key>
+        <value>ca-app-pub-3695840350719243/7537887743</value>
+    </entry>
+
+    <entry>
+        <key>adx_banner_id</key>
+        <value>/112517806,22572584312/1871641547783</value>
+    </entry>
+    <entry>
+        <key>adx_inter_id</key>
+        <value>/112517806,22572584312/3981641547819</value>
+    </entry>
+    <entry>
+        <key>adx_native_id</key>
+        <value>/112517806,22572584312/5331641547929</value>
+    </entry>
+    <entry>
+        <key>adx_open_id</key>
+        <value>/112517806,22572584312/7121641547900</value>
+    </entry>
+
+    <entry>
+        <key>fb_inter_id</key>
+        <value> </value>
+    </entry>
+    <entry>
+        <key>fb_banner_id</key>
+        <value> </value>
+    </entry>
+    <entry>
+        <key>fb_native_id</key>
+        <value>xxx</value>
+    </entry>
+
+
+    <entry>
+        <key>applovin_inter_id</key>
+        <value>93b25d888b25220d</value>
+    </entry>
+    <entry>
+        <key>applovin_banner_id</key>
+        <value>e3e0bece4caef63f</value>
+    </entry>
+    <entry>
+        <key>applovin_rewarded_id</key>
+        <value> </value>
+    </entry>
+
+    <entry>
+        <key>count_click_banner</key>
+        <value>2</value>
+    </entry>
+
+    <entry>
+        <key>current_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>priority_update</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>master_ads_network</key>
+        <value>admob,max,adx,unity,irc</value>
+    </entry>
+    <entry>
+        <key>priority_open_ads</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>unity_app_id</key>
+        <value>4571805</value>
+    </entry>
+    <entry>
+        <key>unity_ad_unit_id</key>
+        <value>Interstitial_Android</value>
+    </entry>
+    <entry>
+        <key>ironsource_app_id</key>
+        <value>13606b819</value>
+    </entry>
+    <entry>
+        <key>xxxxxxxxxxx</key>
+        <value>client</value>
+    </entry>
+</defaultsMap>

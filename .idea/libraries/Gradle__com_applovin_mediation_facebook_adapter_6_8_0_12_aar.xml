@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:facebook-adapter:6.8.0.12@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/b8209ebdb6f75f1ed1ee7e49a6a2f375/facebook-adapter-6.8.0.12/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/b8209ebdb6f75f1ed1ee7e49a6a2f375/facebook-adapter-6.8.0.12/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/b8209ebdb6f75f1ed1ee7e49a6a2f375/facebook-adapter-6.8.0.12/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/facebook-adapter/6.8.0.12/575d9854e27232495edfebd7c19bd8c22113ff1a/facebook-adapter-6.8.0.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

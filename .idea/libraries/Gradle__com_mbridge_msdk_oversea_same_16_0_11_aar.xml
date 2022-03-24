@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mbridge.msdk.oversea:same:16.0.11@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/80f3d793094b908b6b4f089751f435b4/same-16.0.11/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/80f3d793094b908b6b4f089751f435b4/same-16.0.11/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/80f3d793094b908b6b4f089751f435b4/same-16.0.11/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/80f3d793094b908b6b4f089751f435b4/same-16.0.11/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

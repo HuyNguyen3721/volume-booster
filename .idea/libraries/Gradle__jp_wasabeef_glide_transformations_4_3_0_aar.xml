@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.wasabeef:glide-transformations:4.3.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/189801f8f6f6fb74da7e60ef3e14c2fc/glide-transformations-4.3.0/res" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b20c1a2a161df2031c9b9e652dfdc64/glide-transformations-4.3.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b20c1a2a161df2031c9b9e652dfdc64/glide-transformations-4.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/transforms-2/files-2.1/8b20c1a2a161df2031c9b9e652dfdc64/glide-transformations-4.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/jp.wasabeef/glide-transformations/4.3.0/34039c848604483d764853162537954e55ccb8c8/glide-transformations-4.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../WindowLaucher/windows-launcher/.gradle/caches/modules-2/files-2.1/jp.wasabeef/glide-transformations/4.3.0/89fca58c32b9d3f8dc70852e372b33b90bb0e686/glide-transformations-4.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
